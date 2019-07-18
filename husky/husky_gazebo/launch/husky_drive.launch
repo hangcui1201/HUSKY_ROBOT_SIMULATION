@@ -1,0 +1,19 @@
+<launch>
+
+	<!--
+		Author: Hang Cui
+		Email: cuihang1201@gmail.com
+	-->
+
+	<!--
+    <node name="teleop_twist_keyboard" 
+          pkg="teleop_twist_keyboard" 
+          type="teleop_twist_keyboard.py" 
+          output="screen"/>
+	-->
+
+ 	<include file="$(find husky_gazebo)/launch/husky_empty_world.launch">  
+		<arg name="world_name" value="worlds/robocup14_spl_field.world"/>
+	</include>
+
+</launch>
