@@ -16,4 +16,6 @@
 
 ## Exercise 3
 
+#### $ roslaunch husky_highlevel_controller husky_drive.launch
+
 

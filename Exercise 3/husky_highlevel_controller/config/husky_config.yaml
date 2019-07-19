@@ -1,0 +1,4 @@
+husky:
+  topic_name: /scan
+  queue_size: 10
+  p_gain: 0.8
